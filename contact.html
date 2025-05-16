@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Web Design Final</title>
+</head>
+<header> Nostalgic Nibbles</header>
+<body>
+    <h1>
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT ME</a>
+        <a href="breakfast.html">BREAKFAST</a>
+        <a href="lunch.html">LUNCH</a>
+        <a href="dinner.html">DINNER</a>
+        <a href="contact.html">CONTACT</a>
+    </h1>
+
+    <h2>CONTACT</h2>
+    <form>
+        <label for="firstName">First Name</label><br>
+        <input type="text" id="firstName" name="firstName" placeholder="Enter your first name"><br><br>
+        
+        <label for="lastName">Last Name</label><br>
+        <input type="text" id="lastName" name="lastName" placeholder="Enter your last name"><br><br>
+        
+        <label for="email">Email</label><br>
+        <input type="text" id="email" name="email" placeholder="Enter your email (ex: email@hotmail.com)"><br><br>
+
+        <label for="question">What is your Question?</label><br>
+        <select id="question" name="question">
+            <option value="choose">Choose One...</option>
+            <option value="howLong">How long does this recipe take to prepare and cook?</option>
+            <option value="substitutions">Are there any substitutions for certain ingredients?</option>
+            <option value="print">Can I save or print this recipe for later use?</option>
+            <option value="servings">How many servings does this recipe make?</option>
+            <option value="video">Can I watch a video tutorial for this recipe?</option>
+            <option value="scream">Can I filter recipes by dietary restrictions?</option>
+        </select><br><br>
+        
+        <label for="other">If other type question here</label><br>
+        <input type="text" id="other" name="other" placeholder="Enter your question"><br><br>
+
+        <label for="recommendation">Recipe Recommendation</label><br>
+        <textarea id="recommendation" name="recommendation" placeholder="Enter your recommendation"></textarea><br><br>
+       
+        <input type="submit" value="Submit">
+    </form>
+
+    <hr>
+    <p style="text-align:center;">MADE BY KATELYN JENKINS</p>
+</body>
+</html>
